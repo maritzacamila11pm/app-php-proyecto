@@ -11,7 +11,20 @@
    
     <div class = "container">
     <h1>MARITZA CAMILA PONGO </h1>
+
+    <h6>PHP BASICO </h6>
+    <ul class="operaciones">
+      <ol>1. Operaciones con String</ol>
+      <ol>2. Operadores Aritmeticos </ol>
+      <ol>3. Tipos de datos</ol>
+      <ol>4. Operaciones con array</ol>
+      <ol>5. Condicionales</ol>
+      <ol>6. Ciclos </ol>
+      <ol>7. Salir </ol>
+
+    </ul>
     <h6>FORMULARIO</h6>
+    
     <hr>
 
     <form method="POST" action="">
@@ -23,7 +36,7 @@
     <hr>
     
     <?php 
-    
+    include "./Operadores_Logicos.php";
     //CODIGO PHP
     //echo $_GET["precio"]."<br>";
     //echo $_GET["fruta"]."<br>";
@@ -36,7 +49,14 @@
         echo $_GET["fruta"] . "<br>";
     }
 
-     echo $_POST["numero"];
+     echo $_POST["numero"]. "<br>";
+
+     //INSTANCIAR 
+     $ol = new Operadores_Logicos();
+     $ol ->Operadores();
+     $ol ->saludar();
+
+
     ?>
     </div>
 </body>

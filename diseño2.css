@@ -1,9 +1,17 @@
 h1 {
+    font-family: monospace;
     padding-block-start: 2%;
     color: crimson;
     font-size: xx-large;
 }
 h6 {
+    font-family: monospace;
     font-size: xx-large;
     color: rgb(8, 8, 8);
+}
+body{
+    background-color:#fcbcee;
+}
+.operaciones{
+    font-family: monospace;
 }

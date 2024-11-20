@@ -7,6 +7,7 @@
 </head>
 <body>
     <p>MARITZA CAMILA PONGO MAMANI</p>
+
     <!-- ETIQUETAS PHP-->
     <?php
       echo "HOLA MUNDO  <br> ";
