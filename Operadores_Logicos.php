@@ -8,5 +8,7 @@ class Operadores_Logicos {
     }
     public function saludar(){
         echo "Buenas tardes !!" ;
+        "<BR>";
+
     }
 }
